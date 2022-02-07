@@ -1,4 +1,4 @@
-# v2 Portfolio
+# v2 Portfolio (React, Javascript, CSS3)
 v2 Portfolio: https://jared-stearne.herokuapp.com/
 
 See deprecated v1 portfolio (Python/Django/Bootstrap) here: https://jared-stearne-portfolio.herokuapp.com/
