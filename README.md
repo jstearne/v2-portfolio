@@ -1,6 +1,8 @@
 # v2 Portfolio (React, Javascript, CSS3)
 v2 Portfolio: https://jared-stearne.herokuapp.com/
 
+Figma Sketch: https://www.figma.com/file/GKkt2sIF1c71QjqngXapSb/Portfolio-v2?node-id=0%3A1
+
 See deprecated v1 portfolio (Python/Django/Bootstrap) here: https://jared-stearne-portfolio.herokuapp.com/
 
 First portfolio was a temporary design to get up online quickly. Intention was always to replace it with a more customized site.
@@ -18,3 +20,4 @@ Would like to add tooltips to icons for easy readability in the future. Also nee
 Will likely use conditionals or hooks to do that.
 
 Tooltips/git links are low priority for now. Have to get back to the job hunt!
+
