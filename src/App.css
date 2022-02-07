@@ -1,0 +1,235 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Permanent+Marker&display=swap');
+
+.App {
+  text-align: center;
+}
+
+/* FONT STYLING */
+h1 { /* headers (using google fonts) */
+  font-family: 'Audiowide', cursive;
+  color: skyblue; /* pretty damn striking if I do say so myself */
+  text-shadow: 1px 1px 5px #000; /* Can't decide between shadow or no shadow */
+  cursor: default;
+}
+span { /* "in paradise" text effect */
+  font-family: 'Permanent Marker', cursive;
+  font-size: 8vmin;
+  text-shadow: 1px 1px 25px #f00; /* graffitti effect */
+}
+h2 { /* headers (using google fonts) */
+  font-family: 'Audiowide', cursive;
+  color: skyblue; /* pretty damn striking if I do say so myself */
+  text-shadow: 1px 1px 5px #000; /* Can't decide between shadow or no shadow */
+  cursor: default;
+}
+/* styling for credential headers */
+h3 {
+  margin-top: vh;
+  text-shadow: 1px 1px 5px #000; /* Can't decide between shadow or no shadow */
+}
+/* about me headline (main subtitle) */
+h6 {
+  margin-top: -10px;
+  cursor: default;
+}
+p {
+  cursor: default;
+  
+}
+
+/* SCROLL ARROW */
+.down-arrow {
+  margin-top: 10vh;
+	transform: scale(1.5);
+	animation: pulse 1s infinite;
+}
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.25);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+/* COMPONENT STYLING */
+.Welcome-Component {
+  margin-bottom: 22vh; /* space before the projects start showing up, want to show unobstructed image w/ DOWN arrow */
+}
+/* PROJECT COMPONENT STYLING */
+.Project-Component {
+  margin-top: 10vh; /* needs tweaking? */
+  background-image: linear-gradient(to left, rgba(255,255,255,0), rgba(255,255,255,0.7));
+  align-self: flex-end;
+  text-align: left;
+  width: 80vw;
+  border-radius: 25px 0 0 25px;
+  padding: 3vh;
+}
+.Project-Component:hover{
+  /* Makes components slide left and darken subtly on hover. Good for poor eyes? */
+  background-image: linear-gradient(to left, rgba(255,255,255,0), rgba(195,195,195,0.7));
+  position: relative;
+  animation: project-move 0.7s; /* how fast the component "pops" out on-hover */
+  animation-timing-function: ease-in-out; /* ease, ease-out, ease-in, ease-in-out, linear */
+}
+@keyframes project-move {
+	0% {
+		left: 0px;
+	}
+	50% {
+		left: -2vw;
+	}
+	100% {
+		left: 0px;
+	}
+}
+.project-nested-div { /* nested "faux-component" to create a custom border */
+  background-image: linear-gradient(to left, rgba(255,255,0,0), rgba(255,100,0,0.5));
+  width: 60vw;
+  border-radius: 25px 0 0 25px;
+  padding: 5vh;
+
+}
+
+/* CREDENTIAL COMPONENT STYLING */
+.Credential-Component {
+  margin-top: 10vh; /* needs tweaking? */
+  background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.7));
+  align-self: start;
+  width: 80vw;
+  border-radius: 0px 25px 25px 0px;
+  padding: 3vh;
+  white-space: pre-line;
+}
+.Credential-Component:hover{
+  /* Makes components slide left and darken subtly on hover. Good for poor eyes? */
+  background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(195,195,195,0.7));
+  position: relative;
+  animation: credential-move 0.7s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes credential-move {
+	0% {
+		left: 0px;
+	}
+	50% {
+		left: 2vw;
+	}
+	100% {
+		left: 0px;
+	}
+}
+.credential-nested-div { /* nested "faux-component" to create a custom border */
+  background-image: linear-gradient(to right, rgba(255,255,0,0), rgba(255,100,0,0.5));
+  text-align: right;
+  width: 70vw; /* asymetrical looking overlap adds some style to it */
+  border-radius: 0 25px 25px 0;
+  padding: 5vw;
+}
+
+/* NAVBAR COMPONENT STYLING: Coming Soon */
+
+.tagline {
+  display: inline;
+}
+footer {
+  background-color: black;
+  width: 100%;
+  margin-top: 5vh;
+  padding-top: 5vh;
+  outline: 2px solid white;
+  display: inline;
+}
+
+/* Component buttons */
+.github-button, .email-button, .linkedin-button, .resume-button, .scroll-button {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  color: skyblue;
+  background-color: rgb(15,15,15,.5);
+  font-family: 'Audiowide', cursive;
+  background-image: linear-gradient(to top, rgba(255,255,255,0), rgba(195,195,195,0.7));
+  border: none;
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1), 0 10px 10px 0 rgba(0,0,0,0.1);
+}
+.scroll-button {
+  margin: 10vh;
+  padding: 2vh;
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+.github-button:hover, .email-button:hover, .linkedin-button:hover, .resume-button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  color: orangered;
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1), 0 10px 10px 0 rgba(0,0,0,0.1);
+}
+.scroll-button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  color: orangered;
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1), 0 10px 10px 0 rgba(0,0,0,0.1);
+}
+/* Font Awesome and Dev icon buttons styling - Welcome Component Only for now */
+.icons {
+  margin: 2vw;
+}
+.icons:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 0.75rem #f00); /* red halo on hover */
+  transform: scale(1.4);
+}
+.icon-wrap {
+  /* for button group */
+}
+img {
+  /* https://devicon.dev/ tech svg icons, responsive! */
+  height: 3.5%;
+  width: 3.5%;
+  margin-left: 1vw;
+  max-width: 10vw;
+  cursor: help; /* tooltip needs to hit these img tags! */
+}
+aside {
+  /* text indicator for Welcome links? */
+}
+
+
+/* STANDARD REACT STYLES */
+.App-logo {
+  height: 5vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 3s linear;
+  }
+}
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; /* default font for entire site */
+}
+.App-link {
+  color: #61dafb; /* react blue, but mine is a bit more faded and worn looking, not as vibrant. better? */
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
