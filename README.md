@@ -16,3 +16,5 @@ v2 is built in React, Javascript, CSS3.
 
 Would like to add tooltips to icons for easy readability in the future. Also need to connect github links to individual repos. 
 Will likely use conditionals or hooks to do that.
+
+Tooltips/git links are low priority for now. Have to get back to the job hunt!
