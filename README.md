@@ -13,9 +13,13 @@ First portfolio was a temporary design to get up online quickly. Intention was a
 Decided to use React for multiple reasons:
 
 Had no React projects to put in my portfolio
+
 Components allow for easy additions and changes to sections
+
 Easy ecosystem to deal with
+
 Single page app was fine, database/API wasn't needed
+
 
 v2 is built in React, Javascript, CSS3. 
 
