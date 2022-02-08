@@ -18,7 +18,7 @@ function emailMe() {
 }
 function showResume() { 
   window.open(
-    `https://drive.google.com/file/d/1tkm7dcR3CVtYQ4TTJuqCLwFZ0za7xUwY/view?usp=sharing`, "_blank"); 
+    `https://drive.google.com/file/d/1hhf2MdzANtC2PgJ8VJ3XP7vXmIcGsKhJ/view?usp=sharing`, "_blank"); 
 }
 
 function NavBar(props) { /* props is passed from App.js and is an all-in-one arg */
