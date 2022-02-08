@@ -1,4 +1,7 @@
 # v2 Portfolio (React, Javascript, CSS3)
+
+See commits here: https://github.com/jstearne/react-portfolio
+
 v2 Portfolio: https://jared-stearne.herokuapp.com/
 
 Figma Sketch: https://www.figma.com/file/GKkt2sIF1c71QjqngXapSb/Portfolio-v2?node-id=0%3A1
