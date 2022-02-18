@@ -42,6 +42,17 @@ function App() {
          />
 
         <Project 
+          projectName={"Fidget 2.0"}
+          blurb={"A social media website with authentication, post/comment full CRUD. Pure Javascript, including a Node/Express server and an HTML/CSS/Javascript/EJS frontend."}
+
+          tech1={ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript-logo" /> }
+          tech2={ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs-logo"/> }
+          tech3={ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" alt="express-logo"/> }
+          tech4={ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb-logo"/> }
+          tech5={ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="css3-logo"/> }
+        />
+
+        <Project 
           projectName={"Wayfarer"}
           blurb={"A Python Django powered website allowing users to create new posts and interact with each other via comments. This was a fun opportunity to participate in the full software development cycle via client and scrum meetings."}
           
@@ -49,17 +60,6 @@ function App() {
           tech2={ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql-logo"/> }
           tech3={ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg" alt="django-logo"/> }
           tech4={ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="html5-logo"/> }
-          tech5={ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="css3-logo"/> }
-        />
-
-        <Project 
-          projectName={"Fidget"}
-          blurb={"A social media website with authentication, post/comment full CRUD. Pure Javascript, including a Node/Express server and an HTML/CSS/Javascript/EJS frontend."}
-
-          tech1={ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript-logo" /> }
-          tech2={ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs-logo"/> }
-          tech3={ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" alt="express-logo"/> }
-          tech4={ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb-logo"/> }
           tech5={ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="css3-logo"/> }
         />
 
