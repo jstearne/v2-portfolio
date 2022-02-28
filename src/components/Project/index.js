@@ -1,5 +1,7 @@
 import React from 'react';
-// Still links to app.css! No need for a separate import
+import LinkModal from './LinkModal';
+
+
 
 // temporary solution: to github jstearne page
 function toGitHub(props) { 
@@ -19,9 +21,11 @@ function Project(props) { /* props is passed from App.js and is an all-in-one ar
                 <h2 style={{ textDecorationLine: 'overline' }} >{props.projectName}</h2>
 
                 <p>{props.blurb}</p>
-                <p>{props.tech1} {props.tech2} {props.tech3} {props.tech4} {props.tech5} </p>
+                {/* Nested subcomponent with links */}
+                <p><LinkModal /> <button className="github-button" onClick={toGitHub}>&nbsp;my GitHub&nbsp;</button> 
+                    {props.tech1} {props.tech2} {props.tech3} {props.tech4} {props.tech5} </p>
                 {/* need buttons for visiting the live site, git, and seeing image? */}
-                <button className="github-button" onClick={toGitHub}>&nbsp;to GitHub&nbsp;</button>
+                
             </div>
         </div>
     );
