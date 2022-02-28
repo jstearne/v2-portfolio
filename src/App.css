@@ -202,6 +202,26 @@ aside {
 }
 
 
+/* POPUP MODAL STYLING */
+
+/* modal toggle button */
+.link-modal-button {
+  color: green;
+}
+/* modal styling */
+.modal {
+  width: 60%;
+  background-color: grey;
+  border: 2px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+
+}
+
+
+
+
 /* STANDARD REACT STYLES */
 .App-logo {
   height: 5vmin;

@@ -9,8 +9,13 @@ function toLinkedIn() {
 }
 
 const ModalTest = () => (
-    <Popup trigger={<button className="button"> Open LinkModal </button>} modal>
+    <Popup trigger={<button className="link-modal-button"> Open LinkModal </button>} modal>
+      
+      
+      <div className='modal'>
       <span> Modal content and links go here! <a href="www.google.com" onClick={toLinkedIn} target="_blank">Google Link</a> </span>
+      </div>
+     
     </Popup>
   );
 
