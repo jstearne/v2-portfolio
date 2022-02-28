@@ -24,14 +24,13 @@ function Welcome(props) { /* props is passed from App.js and is an all-in-one ar
             {/* Heroku */} <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" alt="heroku-logo"/>
             <NavBar />
 
+            {/* TEST CSS TOOLTIP */}
+            <div className="tooltip">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="python-logo" />
+                <p className="tooltiptext">Python</p>
+            </div>
             
-            {/* TEST JS TOOLTIP */}
-            {/* <div class="tooltip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="python-logo" />
             
-                <span class="tooltiptext">Python!</span>
-            </div> */}
-            
-
         </div>
     );
 }

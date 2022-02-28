@@ -198,7 +198,6 @@ img {
   margin-bottom: -1vh; /* project buttons line up with skill icons */
 }
 
-
 /* POPUP MODAL STYLING */
 
 /* modal toggle button */
@@ -236,17 +235,27 @@ img {
 
 /* TEST TOOLTIPS NOT FUNCTIONAL YET: see Welcome/index.js */
 /* Tooltip container */
-.tooltip {
+.tooltip { /* too wide, how to make narrower? */
   position: relative;
   display: inline-block;
-  border: 1px dotted black; /* If you want dots under the hoverable text */
+  width: 10vw;
+  border: 1px dotted white; /* If you want dots under the hoverable text */
+}
+
+/* keep devicon img the right size, responsive */
+.tooltip img {
+  width: 50%;
+  height: 50%;
+  margin: 0vw;
+
 }
 
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  width: 100%;
   background-color: #555;
+  outline: 1px solid aliceblue;
   color: #fff;
   text-align: center;
   padding: 5px 0;
