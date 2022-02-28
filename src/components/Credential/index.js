@@ -26,12 +26,13 @@ function Credential(props) { /* props is passed from App.js and is an all-in-one
 
                 <h3>{props.org2}</h3>
                 <p>{props.blurb2}</p>
-
+            </div>
                 {/* need buttons for visiting the live site, git, and seeing image? */}
+                <br />
                 <button className="resume-button" onClick={showResume}>&nbsp;resume&nbsp;</button>
                 <button className="linkedin-button" onClick={toLinkedIn}>&nbsp;to linkedin&nbsp;</button>
                 <button className="email-button" onClick={emailMe}>&nbsp;email me&nbsp;</button>
-            </div>
+            
         </div>
     );
 }
