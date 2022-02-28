@@ -187,9 +187,7 @@ footer {
   filter: drop-shadow(0 0 0.75rem #f00); /* red halo on hover */
   transform: scale(1.4);
 }
-.icon-wrap {
-  /* for button group */
-}
+
 img {
   /* https://devicon.dev/ tech svg icons, responsive! */
   height: 5%;
@@ -198,9 +196,6 @@ img {
   max-width: 10vw;
   cursor: help; /* tooltip needs to hit these img tags! */
   margin-bottom: -1vh; /* project buttons line up with skill icons */
-}
-aside {
-  /* text indicator for Welcome links? */
 }
 
 
