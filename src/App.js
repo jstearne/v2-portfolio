@@ -6,6 +6,9 @@ import Project from './components/Project';
 import Credential from './components/Credential';
 import NavBar from './components/NavBar';
 
+import Popup from 'reactjs-popup';
+import ModalTest from './components/ModalTest';
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; /* Font Awesome icons */
 import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons"; /* FA solid import */
 
@@ -24,7 +27,7 @@ function App() {
 
         {/* Welcome Component at top of page, selfie in tooltip? */}
         <Welcome name={'Jared'} /> 
-
+        <ModalTest />
 
         {/* Pulsing down arrow to let users know to keep scrolling */}
         <FontAwesomeIcon className="down-arrow" icon={faAngleDoubleDown} size="lg" />
