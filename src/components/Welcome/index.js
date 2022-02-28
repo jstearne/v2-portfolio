@@ -8,6 +8,7 @@ function Welcome(props) { /* props is passed from App.js and is an all-in-one ar
             <h1>A lovely day <span className="alternate-font"> in Paradise</span></h1> 
             <h6><code> [ My name's {props.name}, and I'm a full-stack engineer looking for an opportunity! ] </code></h6>
             
+            
             {/* SEE TOOLTIPS CSS - need to add them here in v2.0. Can I display alt-text? */}
             {/* Technology Icons: Javascript */} <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript-logo" />
             {/* Python */} <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="python-logo" />
@@ -22,6 +23,15 @@ function Welcome(props) { /* props is passed from App.js and is an all-in-one ar
             {/* Github */} <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="github-logo"/>
             {/* Heroku */} <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" alt="heroku-logo"/>
             <NavBar />
+
+            
+            {/* TEST JS TOOLTIP */}
+            {/* <div class="tooltip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="python-logo" />
+            
+                <span class="tooltiptext">Python!</span>
+            </div> */}
+            
+
         </div>
     );
 }

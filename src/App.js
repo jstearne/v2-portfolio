@@ -31,7 +31,7 @@ function App() {
         {/* Project Components as needed */}
         <Project 
           projectName={"My Wedding App"}
-          blurb={"I'm planning and organizing my upcoming wedding in this Heroku-deployed Python/Django mobile web app. Features authentication, full-CRUD, and database operations. Backend by Express, Node.js and PostgreSQL."}
+          blurb={"I'm planning and organizing my upcoming wedding in this Heroku-deployed Python/Django mobile web app. Features authentication, full-CRUD, and database operations. Backend by Express, Node.js and PostgreSQL SQL database."}
 
           tech1={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="python-logo" />  }
           tech2={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql-logo"/>  }
@@ -42,7 +42,7 @@ function App() {
 
         <Project 
           projectName={"Fidget 2.0"}
-          blurb={"A social media website with authentication, post/comment full CRUD. Pure Javascript, including a Node/Express server and an HTML/CSS/Javascript/EJS frontend."}
+          blurb={"A social media website with authentication, post/comment full CRUD. Pure Javascript, including a Node/Express server and an HTML/CSS/Javascript/EJS frontend. MongoDB database for post data."}
 
           tech1={ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript-logo" /> }
           tech2={ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs-logo"/> }
@@ -64,7 +64,7 @@ function App() {
 
         <Project 
           projectName={"Portfolio Site"}
-          blurb={"A React-JS single-page website with extensive custom CSS. This portfolio replaces my initial effort, a Python/Django website with a Bootstrap frontend."}
+          blurb={"A React-JS single-page website with extensive custom CSS. This portfolio replaces my initial effort, a Python/Django website with CSS frontend and Javascript modals."}
 
           tech1={ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react-logo"/> }
           tech2={ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript-logo" /> }
