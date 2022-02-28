@@ -70,6 +70,9 @@ p {
   border-radius: 25px 0 0 25px;
   padding: 3vh;
 }
+.Project-Component img {
+  cursor: default; /* so users aren't confused by lack of tooltip on Project Component icons */
+}
 .Project-Component:hover{
   /* Makes components slide left and darken subtly on hover. Good for poor eyes? */
   background-image: linear-gradient(to left, rgba(255,255,255,0), rgba(195,195,195,0.7));
@@ -93,7 +96,6 @@ p {
   width: 60vw;
   border-radius: 25px 0 0 25px;
   padding: 5vh;
-
 }
 
 /* CREDENTIAL COMPONENT STYLING */
@@ -233,14 +235,13 @@ img {
 }
 
 
-/* TEST TOOLTIPS NOT FUNCTIONAL YET: see Welcome/index.js */
+/* TOOLTIPS: see Welcome/index.js */
 /* Tooltip container */
 .tooltip { /* too wide, how to make narrower? */
   position: relative;
   display: inline-block;
   width: 8vw;
   font-size: 1vw;
-  
 }
 
 /* keep devicon img the right size, responsive */
@@ -249,7 +250,6 @@ img {
   height: 50%;
   margin: 0vw;
   font-size: 1vw;
-
 }
 
 /* Tooltip text */
