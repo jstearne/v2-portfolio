@@ -21,7 +21,7 @@ Easy ecosystem to deal with
 Single page app was fine, database/API wasn't needed
 
 
-v2 is built in React, Javascript, CSS3. 
+v2 is built in React, Javascript, CSS3. Also used reactjs-popup for the modal/tooltip functionality.
 
 Would like to add tooltips to icons for easy readability in the future. Also need to connect github links to individual repos. 
 Will likely use conditionals or hooks to do that.
