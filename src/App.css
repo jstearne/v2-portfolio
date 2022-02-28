@@ -195,7 +195,7 @@ img {
   margin-left: 1vw;
   max-width: 10vw;
   cursor: help; /* tooltip needs to hit these img tags! */
-  margin-bottom: -1vh; /* project buttons line up with skill icons */
+  margin-bottom: -2vh; /* project buttons line up with skill icons */
 }
 
 /* POPUP MODAL STYLING */
@@ -238,8 +238,9 @@ img {
 .tooltip { /* too wide, how to make narrower? */
   position: relative;
   display: inline-block;
-  width: 10vw;
-  border: 1px dotted white; /* If you want dots under the hoverable text */
+  width: 8vw;
+  font-size: 1vw;
+  
 }
 
 /* keep devicon img the right size, responsive */
@@ -247,6 +248,7 @@ img {
   width: 50%;
   height: 50%;
   margin: 0vw;
+  font-size: 1vw;
 
 }
 

@@ -10,26 +10,84 @@ function Welcome(props) { /* props is passed from App.js and is an all-in-one ar
             
             
             {/* SEE TOOLTIPS CSS - need to add them here in v2.0. Can I display alt-text? */}
-            {/* Technology Icons: Javascript */} <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript-logo" />
-            {/* Python */} <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="python-logo" />
-            {/* React */} <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react-logo"/>
-            {/* Node.js */} <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs-logo"/>
-            {/* Postgresql */} <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql-logo"/>
-            {/* MongoDB - hard to read! */} <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb-logo"/>
-            {/* Django */} <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg" alt="django-logo"/>
-            {/* Express */} <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" alt="express-logo"/>
-            {/* HTML */} <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="html5-logo"/>
-            {/* CSS */} <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="css3-logo"/>
-            {/* Github */} <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="github-logo"/>
-            {/* Heroku */} <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" alt="heroku-logo"/>
-            <NavBar />
-
-            {/* TEST CSS TOOLTIP */}
+            
+            
+            {/* Technology Icons: Javascript */} 
             <div className="tooltip">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="python-logo" />
-                <p className="tooltiptext">Python</p>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript-logo" />
+                <p className="tooltiptext"> Language<br /><b>Javascript</b> </p>
             </div>
             
+            {/* Python */} 
+            <div className="tooltip">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="python-logo" />
+                <p className="tooltiptext"> Language<br /><b>Python</b> </p>
+            </div>
+            
+            {/* React */} 
+            <div className="tooltip">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react-logo"/>
+                <p className="tooltiptext"> Library<br /><b>React</b> </p>
+            </div>
+            
+            {/* Node.js */} 
+            <div className="tooltip">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs-logo"/>
+                <p className="tooltiptext"> Environment<br /><b>Node.js</b> </p>
+            </div>
+            
+            {/* Postgresql */} 
+            <div className="tooltip">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql-logo"/>
+                <p className="tooltiptext"> Database<br /><b>SQL/Postgresql</b> </p>
+            </div>
+            
+            {/* MongoDB - hard to read! */} 
+            <div className="tooltip">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb-logo"/>
+                <p className="tooltiptext"> Database<br /><b>MongoDB</b> </p>
+            </div>
+            
+            {/* Django */} 
+            <div className="tooltip">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg" alt="django-logo"/>
+                <p className="tooltiptext"> Framework<br /><b>Django</b> </p>
+            </div>
+            
+            {/* Express */} 
+            <div className="tooltip">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" alt="express-logo"/>
+                <p className="tooltiptext"> Framework<br /><b>Express</b> </p>
+            </div>
+            
+            {/* HTML */} 
+            <div className="tooltip">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="html5-logo"/>
+                <p className="tooltiptext"> Language<br /><b>HTML5</b> </p>
+            </div>
+            
+            {/* CSS */} 
+            <div className="tooltip">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="css3-logo"/>
+                <p className="tooltiptext"> Language<br /><b>CSS3</b> </p>
+            </div>
+            
+            {/* Github */}
+            <div className="tooltip">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="github-logo"/>
+                <p className="tooltiptext"> DevTool<br /><b>Github</b> </p>
+            </div>
+            
+            {/* Heroku */} 
+            {/* <div className="tooltip">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" alt="heroku-logo"/>
+                <p className="tooltiptext"> DevTool<br /><b>Heroku</b> </p>
+            </div> */}
+
+            <NavBar />
+
+
+
             
         </div>
     );
