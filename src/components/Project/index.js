@@ -16,7 +16,8 @@ function Project(props) { /* props is passed from App.js and is an all-in-one ar
             </div>
 
             {/* Nested subcomponent with links, additional skill icons */}
-            <p><LinkModal /> <button className="github-button" onClick={toGitHub}>&nbsp;my GitHub&nbsp;</button> 
+            <p><LinkModal /> 
+            <button className="github-button" onClick={toGitHub}>&nbsp;my GitHub&nbsp;</button> 
                 {props.tech1} {props.tech2} {props.tech3} {props.tech4} {props.tech5} {props.tech6}</p>
         
         </div>
