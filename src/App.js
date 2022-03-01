@@ -1,3 +1,4 @@
+import React, {useEffect } from 'react';
 import logo from './logo.svg';
 import background from "./img/background.jpg"; /* custom background image in src/img/ */
 import './App.css'; /* import CSS app.css */
@@ -16,6 +17,10 @@ function toTop() {
 
 
 function App() {
+  useEffect(() => {
+    document.title = "Jared Stearne - 2022"
+  }, [])
+  
   return (
     <div className="App" style={{ backgroundImage:`url(${background})`, backgroundRepeat:'no-repeat', backgroundAttachment:'fixed', backgroundPosition:'center', }}  >
     {/* attachment fixed prevents image scroll */}
