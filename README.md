@@ -21,6 +21,7 @@ First portfolio was a temporary design to get up online quickly. Intention was a
 -Had no React projects to put in my portfolio!
 
 v2 is built in React, Javascript, CSS3. Also used reactjs-popup for the modal/tooltip functionality.
+reactjs-popup: https://react-popup.elazizi.com/
 
 Ran into trouble with getting external links to individual Heroku sites. Solution was to use reactjs-popup to create a modal menu with links to each Heroku site. 
 
